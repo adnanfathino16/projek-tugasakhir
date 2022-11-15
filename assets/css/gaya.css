@@ -1,0 +1,180 @@
+body {
+    background-image: url(../img/moroccan-flower.png);
+}
+
+.lamp {
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.keterangan h3 {
+    font-size: calc(4vw + 1rem);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.keterangan p {
+    font-size: 1.5vw;
+}
+
+.keterangan2 h4 {
+    color: red;
+}
+
+.keterangan3 h4 {
+    color: blue;
+}
+
+.header {
+    background-color: #333;
+    padding: 10px;
+}
+
+.header a {
+    color: #eaeaea;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.header a:hover {
+    color: blue;
+    font-size: 12px;
+    background-color: yellow;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    
+}
+
+.tegangan_in {
+    width: 63%;
+    margin:auto;
+}
+
+.tegangan_in .panel-heading {
+    background-color: forestgreen;
+}
+
+.tegangan {
+    width: 50%;
+    float: right;
+}
+
+.tegangan .panel-heading {
+    background-color: forestgreen;
+
+}
+
+.baterai {
+    width: 50%;
+
+}
+
+.baterai .panel-heading {
+    background-color: darkkhaki;
+
+}
+
+.arus {
+    width: 50%;
+    float: right;
+}
+
+.arus .panel-heading {
+    background-color: indianred;
+
+}
+
+.daya {
+    width: 50%;
+
+}
+
+.scontainer {
+    width: 60%;
+    margin: auto;
+
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .logo {
+        width: 20%;
+    }
+    .keterangan h3 {
+        color: orangered;
+        font-size: 20px;
+    }
+
+    .keterangan p {
+        color: orangered;
+        font-size: 13px;
+    }
+
+    .keterangan2 h4 {
+        font-size: 15px;
+    }
+
+    .keterangan2 p {
+        font-size: 10px;
+    }
+
+    .keterangan3 h4 { 
+        font-size: 15px;
+    }
+
+    .keterangan3 p {
+        font-size: 10px;
+    }
+
+    .tegangan_in {
+        width: 60%;
+    }
+
+
+    .scontainer {
+        width: 60%;
+    }
+
+    .header {
+        background-color: #333;
+
+    }
+
+    .header a {
+        color: #eaeaea;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .footer {
+        background-color: #333;
+
+    }
+
+    .footer .copy {
+        color: #eaeaea;
+        font-size: 10px;
+        text-align: center;
+
+    }
+
+
+
+
+}
